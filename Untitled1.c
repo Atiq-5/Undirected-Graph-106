@@ -39,7 +39,7 @@ int main()
         }
     }
     sum = degA+degB;
-    printf("\n Number of Vertices: %d\n",sum);
+    printf("\n Number of degrees of all Vertices: %d\n",sum);
     printf("\n Number of Edge: %d\n",edge);
     printf("\n The total number of edges is(using handshaking theorem): \n");
     printf(" Edge = (sum of degree/2) = (%d/2) = %d\n",sum,sum/2);
@@ -48,4 +48,3 @@ int main()
     printf("\n Time to execute: %lf ms\n",total_time);
     return 0;
 }
-
